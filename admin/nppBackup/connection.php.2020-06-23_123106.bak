@@ -1,0 +1,12 @@
+<?php
+$host="localhost";
+ $db_user="sazzad_hosssain";
+ $db_user_pwd="shamimayy##00";
+ $db_name="sazzad_portfolio";
+ session_start();
+$connect=mysqli_connect( $host,$db_user,$db_user_pwd,$db_name);
+
+if($connect==false){
+		echo"Error!";
+};
+?>

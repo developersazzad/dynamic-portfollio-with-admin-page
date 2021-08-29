@@ -1,0 +1,12 @@
+<?php
+$host="localhost";
+ $db_user="sazzad_hossain";
+ $db_user_pwd="sazzad1234";
+ $db_name="user_data_test";
+ session_start();
+$connect=mysqli_connect( $host,$db_user,$db_user_pwd,$db_name);
+
+if($connect==false){
+		echo"Error!";
+};
+?>
